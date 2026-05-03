@@ -21,6 +21,6 @@ The principal finding concerns *朝鮮國王* (King of Joseon): in 98.2% of mont
 
 If you use this code or data in your research, please cite:
 
-[본인 이름] (2026). 청성조실록 한문 장바구니 분석.
-GitHub: https://github.com/[username]/[repo-name]
+[김형민] (2026). 청성조실록 한문 장바구니 분석.
+[https://github.com/a26532198-collab/Kangxi-MBA-Association-Rule-Mining-/tree/main]
 
