@@ -1,19 +1,21 @@
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+MIT License
 
-# License / 라이선스 고지
+Copyright (c) 2026 a26532198-collab
 
-## English
-This project is licensed under the terms of the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
-- **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **Non-Commercial**: You may not use the material for commercial purposes.
-- **ShareAlike**: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-*Note: The Python code and Jupyter Notebooks are provided under the MIT License, but the analyzed data, results, and historical datasets are strictly bound by the CC BY-NC-SA 4.0 license.*
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
----
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## 한국어 (Korean)
-본 프로젝트의 결과물은 **크리에이티브 커먼즈 저작자표시-비영리-동일조건변경허락 4.0 국제(CC BY-NC-SA 4.0)** 라이선스를 따릅니다.
-- **저작자 표시**: 본 데이터 및 연구 결과를 인용하거나 사용할 경우, 반드시 원저작자(출처)를 명시해야 합니다.
-- **비영리**: 본 프로젝트의 결과물은 어떠한 경우에도 영리 목적으로 사용할 수 없으며, 학술 및 교육적 용도로만 제한됩니다.
-- **동일조건변경허락**: 본 자료를 가공한 2차 저작물 역시 동일한 라이선스(CC BY-NC-SA 4.0)를 적용하여 배포해야 합니다.
-*비고: 소스 코드(Python, .ipynb)는 MIT 라이선스를 따르나, 이를 통해 생성된 분석 데이터 및 역사 사료 가공물은 본 CC 라이선스에 의해 보호받습니다.*
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
