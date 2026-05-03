@@ -17,3 +17,10 @@ The principal finding concerns *朝鮮國王* (King of Joseon): in 98.2% of mont
 
 핵심 발견은 *朝鮮國王*(조선국왕) 관련 패턴이다. 동 단어가 등장하는 월의 98.2%에서 *堂子*(만주 황실 제사장)와 *正月*/*元旦*/*朔*(정월 초하루)이 동시 등장하며, confidence=1.0의 룰이 5건, lift는 12.85-13.06에 달한다. 이는 조선의 외번 표문 의식이 청 조정의 만주식 신년 의례 구조에 정형화되어 편입되어 있었음을 정량적으로 입증하는 결과로, 청 황실이 중화적 조공 관계조차 만주식 의례 틀 안에서 운용했다는 New Qing History 학파의 가설에 경험적 근거를 제공한다.
 
+## Citation
+
+If you use this code or data in your research, please cite:
+
+[본인 이름] (2026). 청성조실록 한문 장바구니 분석.
+GitHub: https://github.com/[username]/[repo-name]
+
