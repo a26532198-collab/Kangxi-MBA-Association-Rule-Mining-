@@ -130,7 +130,8 @@ cd Kangxi-MBA-Association-Rule-Mining
 #    Save it in a .env file as DEEPSEEK_API_KEY=...
 
 # 3. Open the notebook
-jupyter notebook jpt/NERQING.ipynb
+jupyter notebook code/NERQING.ipynb
+
 ```
 
 The NER output (`csv/ner_results.csv`) and the transaction file (`csv/transactions_month.csv`) are included in the repository, so **the 1,475 rules can be reproduced from Cell 6 onward without any DeepSeek API key**.
@@ -146,27 +147,49 @@ The NER output (`csv/ner_results.csv`) and the transaction file (`csv/transactio
 
 ```
 Kangxi-MBA-Association-Rule-Mining/
-├── 1661 - 1722/              # 759 raw monthly CSVs
-├── csv/                      # intermediate and final outputs
-│   ├── merged.csv
-│   ├── ner_results.csv       # NONE removed; used for analysis
-│   ├── ner_results_all.csv   # full output including NONE
-│   ├── transactions_month.csv
-│   ├── transactions_year.csv
-│   ├── rules_month.csv       # final 1,475 rules
-│   ├── rules_朝鮮.csv
-│   ├── rules_蒙古.csv
-│   ├── rules_準噶爾.csv
-│   ├── rules_達賴.csv
-│   ├── joseon_crisis_overlap.csv
-│   ├── joseon_missing_years.csv
-│   ├── joseon_none_cooccurrence.csv
-│   ├── joseon_rules_for_review.csv
-│   └── korea_related_words.csv
-├── figure/                   # 11 figures used in the paper
-├── jpt/
-│   └── NERQING.ipynb         # full pipeline notebook
-├── 문서/                      # paper draft (docx)
+├── 1661_1722_raw_csv/                # 759 raw monthly CSVs
+├── code/                             # Jupyter notebook(s) — full pipeline
+│   └── NERQING.ipynb
+├── csv/                              # intermediate and final outputs
+│   │
+│   │  # ── Joseon-focused outputs ──
+│   ├── joseon_crisis_overlap.csv     # 7 absent months × Kangxi crisis events
+│   ├── joseon_missing_years.csv      # list of the 7 absent months
+│   ├── joseon_none_cooccurrence.csv  # NONE-token co-occurrence around 朝鮮國王
+│   ├── joseon_none_for_review.csv    # candidate NONE tokens flagged for manual review
+│   ├── korea_month_distribution.csv  # monthly distribution of Korea-related terms
+│   ├── korea_related_words.csv       # Korea-related vocabulary list
+│   ├── korea_rules.csv               # rules involving any Korea-related term
+│   │
+│   │  # ── Mongol-focused outputs ──
+│   ├── mongol_month_distribution.csv # monthly distribution of Mongol terms
+│   ├── mongol_rules_ritual.csv       # ritual-tier Mongol rules
+│   ├── mongol_rules_nonritual.csv    # non-ritual / governance-tier Mongol rules
+│   │
+│   │  # ── Other-vassal outputs ──
+│   ├── other_vassal_month_distribution.csv
+│   ├── other_vassal_rules.csv
+│   ├── vassal_month_distribution.csv # combined monthly distribution
+│   ├── vassal_top_cooccurrence.csv   # top co-occurrence pairs across vassals
+│   │
+│   │  # ── Pipeline outputs ──
+│   ├── merged.csv                    # merged & cleaned raw CSVs
+│   ├── ner_checkpoint.csv            # NER batch checkpoint
+│   ├── ner_results.csv               # NONE removed; used for analysis
+│   ├── ner_results_all.csv           # full NER output including NONE
+│   ├── transactions_month.csv        # 758 month-level transactions
+│   ├── transactions_year.csv         # 62 year-level transactions
+│   │
+│   │  # ── Association rules ──
+│   ├── rules_month.csv               # final 1,475 rules (master)
+│   ├── rules_month_korea_focus.csv   # rules filtered around Korea
+│   ├── rules_朝鮮.csv                # rules involving 朝鮮國王
+│   ├── rules_準噶爾.csv              # rules involving 準噶爾
+│   ├── rules_蒙古.csv                # rules involving 蒙古
+│   └── rules_達賴.csv                # rules involving 達賴
+│
+├── document/                         # paper draft (pdf)
+├── figure/                           # 11 figures used in the paper
 ├── LICENSE
 └── README.md
 ```
